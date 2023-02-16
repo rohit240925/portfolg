@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter UI Clone</title>
+    <style>
+      /* Add styles for body */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      /* Add styles for header */
+      header {
+        background-color: #1DA1F2;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      /* Add styles for header logo */
+      header img {
+        height: 30px;
+        margin: 0;
+      }
+      /* Add styles for header search bar */
+      header input[type="text"] {
+        background-color: #fff;
+        border: 1px solid #1DA1F2;
+        border-radius: 25px;
+        color: #1DA1F2;
+        font-size: 14px;
+        height: 40px;
+        padding: 0 20px;
+        width: 400px;
+      }
+      /* Add styles for main content area */
+      main {
+        background-color: #E6ECF0;
+        padding: 20px;
+      }
+      /* Add styles for tweets */
+      .tweet {
+        background-color: #fff;
+        border: 1px solid #E6ECF0;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      /* Add styles for tweet header */
+      .tweet-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      /* Add styles for tweet author avatar */
+      .tweet-header img {
+        border-radius: 50%;
+        height: 50px;
+        margin-right: 20px;
+        width: 50px;
+      }
+      /* Add styles for tweet author name */
+      .tweet-author {
+        font-weight: bold;
+      }
+      /* Add styles for tweet timestamp */
+      .tweet-timestamp {
+        color: #657786;
+        font-size: 12px;
+      }
+      /* Add styles for tweet actions */
+      .tweet-actions {
+        display: flex;
+        margin-top: 20px;
+      }
+      /* Add styles for tweet action buttons */
+      .tweet-actions button {
+        background-color: #1DA1F2;
+        border: none;
+        border-radius: 25px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        height: 40px;
+        margin-right: 20px;
+        padding: 0 20px;
+      }
+      .tweet-form {
+        display: flex;
+        margin-top: 20px;
+      }
+      /* Add styles for tweet text area */
+      .tweet-form textarea {
+        background-color: #fff;
+        border: 1px solid #1DA1F2
+
+    </style>
+  </head>
+  <body>
+    <!-- Add header with Twitter logo and search bar -->
+    <header>
+      <img src="https://logo.clearbit.com/twitter.com" alt="Twitter Logo">
+      <input type="text" placeholder="Search Twitter">
+    </header>
+    <!-- Add main content area with tweets -->
+    <main>
+      <!-- Tweet 1 -->
+      <div class="tweet">
+        <div class="tweet-header">
+          <img src="https://via.placeholder.com/50x50" alt="Author Avatar">
+          <div>
+            <span class="tweet-author">Author Name</span>
+            <span class="tweet-timestamp">2022-12-01 12:34:56</span>
+          </div>
+        </div>
+        <p>This is a sample tweet.</p>
+      </div>
+      <!-- Tweet 2 -->
+      <div class="tweet">
+        <div class="tweet-header">
+          <img src="https://via.placeholder.com/50x50" alt="Author Avatar">
+          <div>
+            <span class="tweet-author">Author Name</span>
+            <span class="tweet-timestamp">2022-12-01 12:34:56</span>
+          </div>
+        </div>
+        <p>This is another sample tweet.</p>
+      </div>
+    </main>
+  </body>
+</html>
